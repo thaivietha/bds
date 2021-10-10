@@ -1,0 +1,232 @@
+.cat-head{
+    position: relative;
+    margin: 0 0 30px;
+    padding: 10px 20px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.property-detail-gallery .row{
+    margin: 0
+}
+
+.property-detail-gallery .no-padding{
+    position: relative;
+    max-height: 130px;
+    overflow: hidden;
+}
+
+.property-detail-gallery img{
+    width: 100%;
+    min-height: 130px;
+}
+
+.content-property-detail{
+    position: relative;
+}
+
+.property-single-details,
+.property-amenities{
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.property-information-detail{
+    display: -webkit-flex;
+    display: flex;
+}
+
+.property-information-detail h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.property-information-detail .property-location{
+    padding: 0 0 10px
+}
+
+.property-information-detail .property-price{
+    margin-left: auto;
+    font-size: 25px;
+    font-weight: 500;
+    color: #c87c1a;
+}
+
+.detail-metas-top{
+    position: relative;
+    margin: 25px 0;
+}
+
+.detail-metas-top .property-meta{
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-color: #f7f7f7;
+}
+
+.detail-metas-top .property-meta a{
+    color: #f47423;
+}
+
+.sidebar-property-form,
+.property-detail-gallery{
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.sidebar-property-form h3,
+.property-detail-gallery h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #484848;
+}
+
+.sidebar-property-form .submit{
+    background-color: #f47423;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.sidebar-property-form .submit:hover{
+    background-color: #e66411;
+}
+
+.detail-list h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #484848;
+}
+
+.detail-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.detail-list ul li{
+    float: left;
+    width: 50%;
+    margin: 0 0 15px;
+}
+
+.detail-list .text{
+    min-width: 100px;
+    display: inline-block;
+}
+
+.detail-list .value{
+    display: inline-block;
+    font-weight: 500;
+}
+
+.property-amenities{
+    padding: 30px 30px 15px;
+}
+
+.property-amenities h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #484848;
+}
+
+.property-amenities .list-check{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.property-amenities .list-check li{
+    float: left;
+    width: 33%;
+    margin: 0 0 15px;
+    color: #484848;
+}
+
+.property-amenities .list-check li:before {
+    color: #d48724;
+    content: "\f10a";
+    margin-right: 12px;
+    font-family: 'Flaticon';
+    display: inline-block;
+}
+
+.facilities ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.facilities ul li{
+    float: left;
+    width: 33.333%;
+    margin: 0 0 15px;
+}
+
+.facilities .text{
+    min-width: 90px;
+    display: inline-block;
+}
+
+.facilities .value{
+    display: inline-block;
+    font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+    .cat-head{
+        margin: 0 0 20px;
+    }
+    .property-information-detail{
+        display: block;
+    }
+
+    .detail-list ul li,
+    .property-amenities .list-check li,
+    .facilities ul li{
+        width: 100%;
+    }
+
+    .property-detail-gallery .no-padding{
+        max-height: 100px;
+    }
+
+    .property-detail-gallery .no-padding img{
+        min-height: 100px;
+    }
+}

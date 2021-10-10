@@ -1,0 +1,9 @@
+﻿.fa-required{
+	display: block;
+}
+.fa-required em{
+	font-size: 75%;
+}
+.text-strong{
+	font-weight: 700;
+}
