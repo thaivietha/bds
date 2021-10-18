@@ -1,3 +1,7 @@
+root admin: nvholding.vn
+pass: Aa123456@
+
+
 # Introduction about NukeViet
 NukeViet is the first opensource CMS in Vietnam. The lastest version - NukeViet 4 coding ground up support lastest web technologies, include reponsive web design (use HTML 5, CSS 3, Composer, XTemplate), jQuery, Ajax...) enables you to build websites and online applications rapidly.
 
