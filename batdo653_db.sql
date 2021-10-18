@@ -13805,7 +13805,7 @@ CREATE TABLE `bcb_users` (
 --
 
 INSERT INTO `bcb_users` (`userid`, `group_id`, `username`, `md5username`, `password`, `email`, `first_name`, `last_name`, `gender`, `photo`, `birthday`, `sig`, `regdate`, `question`, `answer`, `passlostkey`, `view_mail`, `remember`, `in_groups`, `active`, `active2step`, `secretkey`, `checknum`, `last_login`, `last_ip`, `last_agent`, `last_openid`, `last_update`, `idsite`, `safemode`, `safekey`, `email_verification_time`, `active_obj`) VALUES
-(1, 1, 'nvholding.vn', '143844ec1adb123ea6f14a5352290d56', '{SSHA512}zJeroB2upIHxcx+D1wTWxmryh2RxXGzeaZUgw+hJfWJXjryD2OVGZ0YyR3a5UVyo7zHe/YY2599bw2aUxNBRnDVhODQ=', 'adminwmt@gmail.com', 'Systems', 'Admin Root', 'N', 'uploads/users/5_w5sli6ph_1.jpg', 560624400, '', 1602736251, 'Ai thiết kế ?', 'webvang.vn', '', 0, 1, '1,4', 1, 0, '', '', 1602736251, '', '', '', 1609142721, 0, 0, '', 0, 'SYSTEM'),
+(1, 1, 'nvholding.vn', '143844ec1adb123ea6f14a5352290d56', '{SSHA512}3Ajgbwc4eJNg51Jn1HS9uhBRZpAlQS6nwWxfChFaEsAFi4kqhyxiH+tEkhs+TSZ7cvfKcBMgjgatJHF4J5UGSDZiYWU=', 'adminwmt@gmail.com', 'Systems', 'Admin Root', 'N', 'uploads/users/5_w5sli6ph_1.jpg', 560624400, '', 1602736251, 'Ai thiết kế ?', 'webvang.vn', '', 0, 1, '1,4', 1, 0, '', '', 1602736251, '', '', '', 1609142721, 0, 0, '', 0, 'SYSTEM'),
 (3, 2, 'admin', '21232f297a57a5a743894a0e4a801fc3', '{SSHA512}gpL0zZxv2Sl0bjq4tQhWgHdVNXBQsidZQXCr5VcXBhJF4HIfwofYBuhD9IGdMSKDFQd8DEWbo4Yb7QZsPSMuhzUxODQ=', 'admin@batdongsanbichvan.com', 'Admin', '', 'M', '', 560624400, '', 1609142859, 'website admin?', 'webvang.vn', '', 0, 1, '4,2', 1, 0, '', '', 0, '', '', '', 0, 0, 0, '', -1, 'SYSTEM');
 
 -- --------------------------------------------------------
