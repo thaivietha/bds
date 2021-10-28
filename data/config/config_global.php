@@ -3,9 +3,9 @@
 /**
  * @Project NUKEVIET 4.x
  * @Author VINADES.,JSC <contact@vinades.vn>
- * @Copyright (C) 2020 VINADES.,JSC. All rights reserved
+ * @Copyright (C) 2021 VINADES.,JSC. All rights reserved
  * @License GNU/GPL version 2 or any later version
- * @Createdate Mon, 28 Dec 2020 09:23:55 GMT
+ * @Createdate Thu, 28 Oct 2021 09:05:34 GMT
  */
 
 if (!defined('NV_MAINFILE')) {
@@ -24,7 +24,7 @@ define('NV_LIVE_SESSION_TIME', 0);
 define('NV_MAX_HEIGHT', 1500);
 define('NV_MAX_WIDTH', 1500);
 define('NV_EOL', "\n");
-define('NV_UPLOAD_MAX_FILESIZE', 2097152);
+define('NV_UPLOAD_MAX_FILESIZE', 67108864);
 $global_config['admfirewall']=0;
 $global_config['admin_2step_default']='code';
 $global_config['admin_2step_opt']='code';
@@ -74,7 +74,7 @@ $global_config['login_time_ban']=30;
 $global_config['login_time_tracking']=5;
 $global_config['max_requests_300']=150;
 $global_config['max_requests_60']=40;
-$global_config['my_domains']='batdongsanbichvan.com,www.batdongsanbichvan.com';
+$global_config['my_domains']='bichvan.irv.vn';
 $global_config['notification_active']=1;
 $global_config['notification_autodel']=15;
 $global_config['nv_auto_resize']=1;
@@ -106,7 +106,7 @@ $global_config['upload_chunk_size']=0;
 $global_config['useactivate']=2;
 $global_config['users_special']=0;
 $global_config['version']='4.4.02';
-$global_config['check_rewrite_file']=1;
+$global_config['check_rewrite_file']='';
 $global_config['allow_request_mods']=['get','post','cookie','session','request','env','server'];
 $global_config['request_default_mode']='request';
 $global_config['log_errors_list']=32767;

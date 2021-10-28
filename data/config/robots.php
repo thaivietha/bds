@@ -3,9 +3,9 @@
 /**
  * @Project NUKEVIET 4.x
  * @Author VINADES.,JSC <contact@vinades.vn>
- * @Copyright (C) 2020 VINADES.,JSC. All rights reserved
+ * @Copyright (C) 2021 VINADES.,JSC. All rights reserved
  * @License GNU/GPL version 2 or any later version
- * @Createdate Thu, 15 Oct 2020 04:30:52 GMT
+ * @Createdate Thu, 28 Oct 2021 08:50:38 GMT
  */
 
 if ( ! defined( 'NV_MAINFILE' ) ) die( 'Stop!!!' );
